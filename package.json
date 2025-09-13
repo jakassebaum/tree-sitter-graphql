@@ -7,14 +7,18 @@
   "license": "MIT",
   "scripts": {
     "generate": "tree-sitter generate",
-    "test": "tree-sitter test"
+    "test": "tree-sitter test",
+    "build": "node-gyp rebuild",
+    "install": "node-gyp rebuild"
   },
   "dependencies": {
-    "nan": "^2.14.2"
+    "node-addon-api": "^8.5.0"
   },
   "devDependencies": {
-    "node-gyp": "^7.1.2",
-    "prettier": "^2.1.2",
-    "tree-sitter-cli": "^0.19.3"
+    "node-gyp": "^11.4.2",
+    "tree-sitter-cli": "^0.25.0"
+  },
+  "peerDependencies": {
+    "tree-sitter": "^0.25.0"
   }
 }

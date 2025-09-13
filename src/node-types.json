@@ -1036,6 +1036,7 @@
   {
     "type": "source_file",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": false,
@@ -1515,11 +1516,13 @@
   },
   {
     "type": "comma",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "directive",

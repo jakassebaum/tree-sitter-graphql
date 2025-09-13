@@ -1,0 +1,26 @@
+{
+  "grammars": [
+    {
+      "name": "graphql",
+      "camelcase": "GraphQL",
+      "scope": "source.graphql",
+      "path": ".",
+      "file-types": [
+        "graphql",
+        "gql"
+      ],
+      "injection-regex": "^(graphql|gql)$",
+      "first-line-regex": "^#\\s*graphql"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "A tree-sitter grammar for GraphQL",
+    "authors": [
+      {
+        "name": "Bryan Kegley"
+      }
+    ]
+  }
+}
