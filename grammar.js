@@ -1,7 +1,7 @@
 module.exports = grammar({
   name: "graphql",
 
-  extras: ($) => [/[\s\uFEFF\u0009\u0020\u000A\u000D]/, $.comma, $.comment],
+  extras: ($) => [/[\s\uFEFF\u0009\u0020\u000A\u000D]/, ',', $.comment],
 
   rules: {
     source_file: ($) => $.document,

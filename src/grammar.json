@@ -2288,8 +2288,8 @@
       "value": "[\\s\\uFEFF\\u0009\\u0020\\u000A\\u000D]"
     },
     {
-      "type": "SYMBOL",
-      "name": "comma"
+      "type": "STRING",
+      "value": ","
     },
     {
       "type": "SYMBOL",
